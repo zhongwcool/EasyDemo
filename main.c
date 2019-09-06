@@ -85,11 +85,11 @@ void test_elog(void) {
         char content[100];
 //        sprintf(content, "%d Hello EasyLogger!", COUNT++);
 //        log_a(content);
-        sprintf(content, "D: %d Hello EasyLogger!", COUNT++);
+        sprintf(content, "E: %d Hello EasyLogger!", COUNT++);
         log_e(content);
-        sprintf(content, "D: %d Hello EasyLogger!", COUNT++);
+        sprintf(content, "E: %d Hello EasyLogger!", COUNT++);
         log_w(content);
-        sprintf(content, "D: %d Hello EasyLogger!", COUNT++);
+        sprintf(content, "E: %d Hello EasyLogger!", COUNT++);
         log_i(content);
 //        sprintf(content, "%d Hello EasyLogger!", COUNT++);
 //        log_d(content);
